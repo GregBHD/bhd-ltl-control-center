@@ -2,9 +2,9 @@
 
 A Mansfield Energy Corp example built as a browser-local demonstration for Backhaul Direct's multi-facility LTL visibility product, styled to match Food It Forward. Sunnybrook remains the load system of record.
 
-[Open the private live demonstration](https://bhd-ltl-control-center.gharr477386.chatgpt.site)
+[Open the live dashboard](https://gregbhd.github.io/bhd-ltl-control-center/)
 
-This repository contains the complete Mansfield update from Sites source commit `206fb3ea3bf61af8a56c0ed56047784f6ab165aa`. GitHub is a source handoff; pushes here do not automatically deploy the existing Site. The app files match that published build.
+This repository contains the complete Mansfield update from Sites source commit `206fb3ea3bf61af8a56c0ed56047784f6ab165aa`. GitHub Pages publishes this repository from `main`. The separate ChatGPT Sites deployment is not synchronized by GitHub pushes. The app files match the original published Mansfield build.
 
 ![Mansfield location network](docs/dashboard-preview.jpg)
 
@@ -72,4 +72,4 @@ The Mansfield workspace adds a fuel/DEF continuity scenario planner, a synthetic
 
 The repository is prepared for GitHub Pages: choose **Deploy from a branch → main → / (root)** in Settings → Pages. The root entrypoint opens the current application in `dist/` and preserves shipment deep links. `.nojekyll` serves the static assets without a Jekyll build. Once hosting is enabled, changes to `main` are published by GitHub Pages.
 
-Pages activation is pending repository visibility approval. GitHub currently requires an account upgrade or a public repository for this project. The existing private Sites demonstration is independent of GitHub Pages.
+GitHub Pages is enabled at https://gregbhd.github.io/bhd-ltl-control-center/ with HTTPS and public access; no sign-in is required. The repository was made public with owner approval. The existing private Sites demonstration is independent of GitHub Pages.
