@@ -67,3 +67,9 @@ Food It Forward's `dist/network.css`, `dist/redesign.js`, and `dist/index.html` 
 Locations now use 11 detailed entries from Mansfield’s official public directory, with address conflicts and mailing/city-level pins explicitly flagged. The directory is not a verified receiving-site master. The redesigned map has sourced geography, readable labels, location/active/historical layers, pan, zoom, and a list alternative. Phones start in the readable directory view; the map remains one tap away.
 
 The Mansfield workspace adds a fuel/DEF continuity scenario planner, a synthetic invoice/POD review queue, and local site-readiness annotations. Research and source notes are available in-app and in `docs/MAP-SOURCES.md`. Inventory/FuelNet remains unconnected. The 176 demo loads are conventional palletized LTL; a tank-wagon program needs a separate agreed data contract.
+
+## GitHub Pages
+
+The repository is prepared for GitHub Pages: choose **Deploy from a branch → main → / (root)** in Settings → Pages. The root entrypoint opens the current application in `dist/` and preserves shipment deep links. `.nojekyll` serves the static assets without a Jekyll build. Once hosting is enabled, changes to `main` are published by GitHub Pages.
+
+Pages activation is pending repository visibility approval. GitHub currently requires an account upgrade or a public repository for this project. The existing private Sites demonstration is independent of GitHub Pages.
